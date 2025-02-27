@@ -6,7 +6,7 @@ npm start
 ```
 
 # This is Just the Skeleton for the upcoming study-scheduler project 
-# No bakend work is being doing currently at the moment 
+# No Backend work is being doing currently at the moment 
 
 /*Contact me for any queries or suggestions*/
 
