@@ -1,0 +1,135 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container
+{
+    display: flex;
+    width : 90vw;
+    justify-content: center;
+
+}
+
+#leftbox
+{
+    display: flex;
+    min-height: 90vh;
+    width : 140px;
+    margin-right: 10px;
+    flex-direction: column;
+    border : 2px solid #EFEFF2;
+    border-radius : 17px;
+    justify-content: start;
+    background: linear-gradient(#F9F9FD,#BFD5FF);
+    
+}
+
+.left-buttons
+{
+    padding : 10px 14px;
+    border : none;
+    border-radius : 15px;
+    background-color: white;
+    margin : 2vh 4vh;
+    color : gray;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.left-buttons:hover
+{
+    background-color: #C7DBFF;
+    border-right : 2px solid darkgray;
+    border-left : 2px solid darkgray;
+    color : #1267FC;
+}
+
+#second-last
+{
+    margin-top : 200px
+}
+
+#last
+{
+    margin-top : 0px;
+}
+
+#rightbox
+{
+     display: flex;
+     flex-direction: column;
+     flex-grow : 1;
+     border : 2px solid #EFEFF2;
+     border-radius : 17px;   
+}
+
+#right-upper
+{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom : 20px;
+    border : none;
+    border-radius : 17px;
+    background : linear-gradient(to right,#F9F9FD,#BFD5FF);
+    
+}
+
+.day
+{
+    background: rgba(255, 255, 255, 0.5);
+    width : 90px;
+    padding : 15px;
+    margin : 2px;
+    border : none;
+    border-radius : 15px;
+    font-size: 12px;
+    font-weight: bolder;
+    color : gray;
+    
+}
+
+.day:hover
+{
+    background-color: white;
+}
+
+#current-date
+{
+    display: block;
+    width : 100%;
+    padding-left : 10px;
+    text-align: start;
+    font-weight : 100;
+}
+
+#right-lower
+{
+    border : 2px solid #EFEFF2;
+    border-radius : 17px;
+    display: grid;
+    grid-template-rows: repeat(9,1fr);
+    margin : 10px;
+}
+
+.time
+{
+    padding : 5px 8px;
+    margin : 3px 0px;
+    border-radius : 15px;
+    border : none;
+    font-size: 10px;
+    font-weight: bolder;
+    color : gray;
+    border-bottom : 2px solid #EFEFF2;
+}
+
+.time:hover
+{
+    background-color: #C7DBFF;
+}
+
+
+

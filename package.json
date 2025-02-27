@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s08m037mjc",
+  "description": "https://scrimba.com/s08m037mjc/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
