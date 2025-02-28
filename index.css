@@ -155,7 +155,6 @@
 .time {
     padding: 5px 8px;
     margin: 3px 0px;
-    border-radius: 15px;
     border: none;
     font-size: 10px;
     font-weight: bolder;
@@ -163,12 +162,18 @@
     border-bottom: 2px solid #EFEFF2;
 }
 
-    .time:hover {
-        background-color: #C7DBFF;
-    }
+#lasttime {
+    border-bottom: none;
+}
+
+.time:hover {
+    background-color: #C7DBFF;
+}
+
 
 #last-day-week-month {
-    margin-right: 75px;
+    padding-right: 4vw;
+    margin-right: 6.8vw;
 }
 
 #right-zeroth {
